@@ -1,9 +1,4 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/cathedral-mark-dark.png">
-    <img src="docs/assets/cathedral-mark.png" alt="Cathedral" width="128">
-  </picture>
-</p>
+<p align="center"><img src="docs/assets/cathedral-mark.png" alt="Cathedral" width="128"></p>
 <h1 align="center">Cathedral Escape Room</h1>
 <p align="center"><em>Break&ensp;out&ensp;of&ensp;a&ensp;sealed&ensp;sandbox.&ensp;Prove&ensp;it.&ensp;Earn&ensp;on&ensp;SN94.</em></p>
 <p align="center">
@@ -14,10 +9,7 @@
 <br>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/escape-layers-dark.svg">
-    <img src="docs/assets/escape-layers-light.svg" alt="Your room is a gVisor sandbox inside one sealed AMD SEV-SNP virtual machine. A secret sits on the host side. Break out, read it, claim it, and the SN94 validator turns the signed receipt into weight." width="880">
-  </picture>
+  <img src="docs/assets/escape-layers.svg" alt="Your room is a gVisor sandbox inside one sealed AMD SEV-SNP virtual machine. A secret sits on the host side. Break out, read it, claim it, and the SN94 validator turns the signed receipt into weight." width="880">
 </p>
 
 <br>

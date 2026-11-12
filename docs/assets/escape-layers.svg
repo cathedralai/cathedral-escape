@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" width="880" height="400" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 440" width="920" height="440" role="img" aria-labelledby="t d">
 <title id="t">The escape room in one picture</title>
 <desc id="d">Your room is a gVisor sandbox inside one sealed AMD SEV-SNP virtual machine on a leased server. A secret is planted on the host side, outside the room. Break out, read it, claim it. A signer outside the host issues a receipt, and the SN94 validator turns receipts into weight.</desc>
 <defs>
@@ -10,13 +10,15 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#f3ef
 .h{font-size:14px;font-weight:700} .s{font-size:12px;fill:#a8a294} .k{font-size:11px;fill:#a8a294;letter-spacing:.12em}
 .n{font-size:13px;font-weight:700;fill:#f0a060}
 </style>
+<rect x="1" y="1" width="918" height="438" rx="18" fill="#161512" stroke="#4a463e" stroke-width="1.5"/>
+<g transform="translate(20 20)">
 <rect x="20" y="34" width="524" height="346" rx="14" fill="none" stroke="#5d584e" stroke-width="1.5" stroke-dasharray="6 6"/>
 <text x="40" y="62" class="k">LEASED SERVER</text>
 <text x="524" y="62" class="s" text-anchor="end">other VMs: out of bounds</text>
-<rect x="44" y="80" width="476" height="276" rx="12" fill="#22201c" stroke="#f3efe6" stroke-width="2"/>
+<rect x="44" y="80" width="476" height="276" rx="12" fill="#24221e" stroke="#f3efe6" stroke-width="2"/>
 <text x="66" y="110" class="h">Sealed VM</text>
 <text x="66" y="129" class="s">AMD SEV-SNP, reserved for the escape room</text>
-<rect x="66" y="156" width="190" height="170" rx="10" fill="#2c2a25" stroke="#f3efe6" stroke-width="1.5"/>
+<rect x="66" y="156" width="190" height="170" rx="10" fill="#2f2c27" stroke="#f3efe6" stroke-width="1.5"/>
 <text x="86" y="186" class="h">Your room</text>
 <text x="86" y="205" class="s">gVisor sandbox</text>
 <text x="86" y="246" class="s">root inside,</text>
@@ -29,15 +31,16 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#f3ef
 <path d="M256 241 H356" fill="none" stroke="#f0a060" stroke-width="2.5" marker-end="url(#a)"/>
 <text x="306" y="229" class="n" text-anchor="middle">break out</text>
 <path d="M506 241 H572 V78 H606" fill="none" stroke="#f0a060" stroke-width="2" marker-end="url(#a)"/>
-<rect x="612" y="40" width="248" height="76" rx="10" fill="none" stroke="#f3efe6" stroke-width="1.5"/>
+<rect x="612" y="40" width="248" height="76" rx="10" fill="#24221e" stroke="#f3efe6" stroke-width="1.5"/>
 <text x="632" y="70" class="h">1  Claim</text>
 <text x="632" y="92" class="s">the secret + your SN94 hotkey</text>
 <path d="M736 116 V164" fill="none" stroke="#f3efe6" stroke-width="1.5" marker-end="url(#b)"/>
-<rect x="612" y="170" width="248" height="76" rx="10" fill="none" stroke="#f3efe6" stroke-width="1.5"/>
+<rect x="612" y="170" width="248" height="76" rx="10" fill="#24221e" stroke="#f3efe6" stroke-width="1.5"/>
 <text x="632" y="200" class="h">2  Signed receipt</text>
 <text x="632" y="222" class="s">signer sits outside the host</text>
 <path d="M736 246 V294" fill="none" stroke="#f3efe6" stroke-width="1.5" marker-end="url(#b)"/>
-<rect x="612" y="300" width="248" height="76" rx="10" fill="none" stroke="#f3efe6" stroke-width="1.5"/>
+<rect x="612" y="300" width="248" height="76" rx="10" fill="#24221e" stroke="#f3efe6" stroke-width="1.5"/>
 <text x="632" y="330" class="h">3  Validator weight</text>
 <text x="632" y="352" class="s">escape lane, 7 days, on SN94</text>
+</g>
 </svg>
