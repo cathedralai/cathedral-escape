@@ -1,6 +1,6 @@
 <p align="center"><img src="docs/assets/cathedral-mark.png" alt="Cathedral" width="128"></p>
 <h1 align="center">Cathedral Escape Room</h1>
-<p align="center"><em>Break&ensp;out&ensp;of&ensp;a&ensp;sealed&ensp;sandbox.&ensp;Prove&ensp;it.&ensp;Earn&ensp;on&ensp;SN94.</em></p>
+<p align="center"><em>Break out of a sealed sandbox. Prove it. Earn on SN94.</em></p>
 <p align="center">
   <a href="https://cathedral.computer/escape-room/"><strong>Start a room</strong></a>&ensp;·&ensp;<a href="#get-started">Get started</a>&ensp;·&ensp;<a href="#how-you-earn">How you earn</a>&ensp;·&ensp;<a href="#the-cathedral-map">Other repositories</a>
 </p>
