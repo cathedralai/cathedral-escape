@@ -127,7 +127,7 @@ What this is not:
 shape of a claim.
 
 ```bash
-git clone https://github.com/cathedralai/cathedral-escape-room && cd cathedral-escape-room/practice
+git clone https://github.com/cathedralai/cathedral-escape && cd cathedral-escape/practice
 python3 -m venv .venv && . .venv/bin/activate
 pip install -e ".[test]"
 
@@ -198,7 +198,7 @@ We would rather state the limits than have you find them.
 
 | Repository | What it is | Read it when |
 |---|---|---|
-| **cathedral-escape-room** (this one) | Contest rules, claim format, local practice harness | You want to attack the wall |
+| **cathedral-escape** (this one) | Contest rules, claim format, local practice harness | You want to attack the wall |
 | [cathedral-sandbox](https://github.com/cathedralai/cathedral-sandbox) | The sandbox itself, the sealed host code, and compute mining | You want to study the target, or mine with a machine |
 | [cathedral-validator](https://github.com/cathedralai/cathedral-validator) | The SN94 validator: how weights are set, with signed updates | You want to check how a break is paid, or validate |
 | [cathedral.computer](https://cathedral.computer) | The live product, the console and the escape room page | You want to start a room |
