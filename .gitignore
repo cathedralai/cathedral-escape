@@ -1,0 +1,11 @@
+.escape-practice/
+.staging/
+.staging-engine
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.venv/

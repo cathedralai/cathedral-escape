@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" width="880" height="400" role="img" aria-labelledby="t d">
+<title id="t">The escape room in one picture</title>
+<desc id="d">Your room is a gVisor sandbox inside one sealed AMD SEV-SNP virtual machine on a leased server. A secret is planted on the host side, outside the room. Break out, read it, claim it. A signer outside the host issues a receipt, and the SN94 validator turns receipts into weight.</desc>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#b4541a"/></marker>
+<marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1a1917"/></marker>
+</defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#1a1917}
+.h{font-size:14px;font-weight:700} .s{font-size:12px;fill:#6b665c} .k{font-size:11px;fill:#6b665c;letter-spacing:.12em}
+.n{font-size:13px;font-weight:700;fill:#b4541a}
+</style>
+<rect x="20" y="34" width="524" height="346" rx="14" fill="none" stroke="#b9b3a6" stroke-width="1.5" stroke-dasharray="6 6"/>
+<text x="40" y="62" class="k">LEASED SERVER</text>
+<text x="524" y="62" class="s" text-anchor="end">other VMs: out of bounds</text>
+<rect x="44" y="80" width="476" height="276" rx="12" fill="#f6f2e9" stroke="#1a1917" stroke-width="2"/>
+<text x="66" y="110" class="h">Sealed VM</text>
+<text x="66" y="129" class="s">AMD SEV-SNP, reserved for the escape room</text>
+<rect x="66" y="156" width="190" height="170" rx="10" fill="#ffffff" stroke="#1a1917" stroke-width="1.5"/>
+<text x="86" y="186" class="h">Your room</text>
+<text x="86" y="205" class="s">gVisor sandbox</text>
+<text x="86" y="246" class="s">root inside,</text>
+<text x="86" y="264" class="s">nothing outside.</text>
+<text x="86" y="304" class="k">YOU START HERE</text>
+<rect x="362" y="196" width="144" height="90" rx="10" fill="#fbeadb" stroke="#b4541a" stroke-width="2"/>
+<text x="434" y="230" class="h" text-anchor="middle">Host secret</text>
+<text x="434" y="250" class="s" text-anchor="middle">planted per room,</text>
+<text x="434" y="267" class="s" text-anchor="middle">outside the room</text>
+<path d="M256 241 H356" fill="none" stroke="#b4541a" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="306" y="229" class="n" text-anchor="middle">break out</text>
+<path d="M506 241 H572 V78 H606" fill="none" stroke="#b4541a" stroke-width="2" marker-end="url(#a)"/>
+<rect x="612" y="40" width="248" height="76" rx="10" fill="none" stroke="#1a1917" stroke-width="1.5"/>
+<text x="632" y="70" class="h">1  Claim</text>
+<text x="632" y="92" class="s">the secret + your SN94 hotkey</text>
+<path d="M736 116 V164" fill="none" stroke="#1a1917" stroke-width="1.5" marker-end="url(#b)"/>
+<rect x="612" y="170" width="248" height="76" rx="10" fill="none" stroke="#1a1917" stroke-width="1.5"/>
+<text x="632" y="200" class="h">2  Signed receipt</text>
+<text x="632" y="222" class="s">signer sits outside the host</text>
+<path d="M736 246 V294" fill="none" stroke="#1a1917" stroke-width="1.5" marker-end="url(#b)"/>
+<rect x="612" y="300" width="248" height="76" rx="10" fill="none" stroke="#1a1917" stroke-width="1.5"/>
+<text x="632" y="330" class="h">3  Validator weight</text>
+<text x="632" y="352" class="s">escape lane, 7 days, on SN94</text>
+</svg>
